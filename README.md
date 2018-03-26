@@ -117,6 +117,18 @@ Lepton can be configured by `<home_dir>/.leptonrc` in the these fields. (Create 
 
 Check out the [.leptonrc template](https://gist.github.com/1ad7e4968eb64d881ec9dedd6c0f400b) to explore their options.
 
+## Shortcuts
+| Function       | Shortcut       |  Note     |
+| :------------: |:-------------: |:-----:|
+| New Snippet    | `Cmd/Ctrl + N` | Create a snippet      |
+| Edit Snippet   | `Cmd/Ctrl + E` | Edit a snippet      |
+| Submit         | `Cmd/Ctrl + S` | Submit the changes from the editor      |
+| Cancel         | `Cmd/Ctrl + ESC` | Exit the editor without saving   |
+| Immersive Mode | `Cmd/Ctrl + I` |  Toggle the [Immersive mode](https://github.com/hackjutsu/Lepton/blob/master/docs/img/portfolio/immersive.png)    |
+| Dashboard      | `Cmd/Ctrl + D` |  Toggle the [dashboard](https://github.com/hackjutsu/Lepton/blob/master/docs/img/portfolio/dashboard.png)     |
+| About Page     | `Cmd/Ctrl + ,` |  Toggle the [About page](https://github.com/hackjutsu/Lepton/blob/dev/docs/img/portfolio/about.png)    |
+| Search         | `Shift + Space`|  Toggle the [search bar](https://github.com/hackjutsu/Lepton/blob/master/docs/img/portfolio/search_bar.png)    |
+
 ## FAQ
 #### My snippet's language is classified as "Other"
 Lepton depends on GitHub API to detect the language. If it fails, the snippet's language is marked as "Other". However, we can put `// vim: syntax=<your_language>` at the top to explicitly specify the language.
