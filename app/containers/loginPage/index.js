@@ -25,7 +25,7 @@ class LoginPage extends Component {
     const { loggedInUserInfo } = this.props
     logger.debug('-----> Inside LoginPage componentWillMount with loggedInUserInfo' + JSON.stringify(loggedInUserInfo))
 
-    if (loggedInUserInfo && loggedInUserInfo.image && loggedInUserInfo.image !== 'null' ) {
+    if (loggedInUserInfo && loggedInUserInfo.image && loggedInUserInfo.image !== 'null') {
       this.setState({ cachedImage: loggedInUserInfo.image })
     }
 
